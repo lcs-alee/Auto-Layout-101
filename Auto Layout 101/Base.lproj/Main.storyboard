@@ -72,12 +72,33 @@
                     <view key="view" contentMode="scaleToFill" id="Aur-aK-0wt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EgU-1n-P4N">
+                                <rect key="frame" x="40" y="0.0" width="335" height="667"/>
+                                <color key="backgroundColor" red="1" green="0.14766710450000001" blue="0.1234951962" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VeC-9p-tzq" userLabel="We">
+                                <rect key="frame" x="19.5" y="323" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VeC-9p-tzq" firstAttribute="width" secondItem="EgU-1n-P4N" secondAttribute="width" id="12L-bH-bEq"/>
+                            <constraint firstItem="VeC-9p-tzq" firstAttribute="centerY" secondItem="EgU-1n-P4N" secondAttribute="centerY" id="7o1-V9-JV9"/>
+                            <constraint firstItem="WGH-8z-A19" firstAttribute="top" secondItem="EgU-1n-P4N" secondAttribute="bottom" id="CTD-mp-a4r"/>
+                            <constraint firstItem="EgU-1n-P4N" firstAttribute="leading" secondItem="Aur-aK-0wt" secondAttribute="leading" constant="40" id="KpO-Qv-uwX"/>
+                            <constraint firstAttribute="trailing" secondItem="EgU-1n-P4N" secondAttribute="trailing" id="NaP-7C-kyn"/>
+                            <constraint firstItem="VeC-9p-tzq" firstAttribute="centerX" secondItem="Aur-aK-0wt" secondAttribute="centerX" id="TRk-7M-voY"/>
+                            <constraint firstItem="EgU-1n-P4N" firstAttribute="top" secondItem="Tx2-hL-t52" secondAttribute="bottom" constant="-20" id="sGR-QJ-Uln"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4F-Di-stL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-423" y="66"/>
+            <point key="canvasLocation" x="-423.19999999999999" y="65.217391304347828"/>
         </scene>
     </scenes>
     <resources>
